@@ -1,0 +1,18 @@
+.ofline {
+  color: brown;
+}
+.online {
+  color: green;
+}
+.item {
+  list-style: none;
+}
+.friendlist {
+  padding: 0;
+}
+.wrap {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}

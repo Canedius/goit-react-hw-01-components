@@ -1,0 +1,23 @@
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.avatar {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+.profile {
+  background-color: beige;
+  width: 220px;
+  text-align: center;
+}
+.wrap {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid grey;
+}
