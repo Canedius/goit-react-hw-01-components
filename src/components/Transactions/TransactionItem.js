@@ -1,4 +1,3 @@
-import s from './TransactionHistory.module.css';
 export default function TransactionItem({ type, amount, currency }) {
   return (
     <tr>
