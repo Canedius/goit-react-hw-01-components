@@ -16,9 +16,12 @@ export default function Statistics({ stats, title }) {
   );
 }
 Statistics.propTypes = {
-  stats: PropTypes.array,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      label: PropTypes.string,
+      percentage: PropTypes.number,
+    })
+  ),
   title: PropTypes.string,
-  id: PropTypes.number,
-  label: PropTypes.string,
-  percentage: PropTypes.string,
 };

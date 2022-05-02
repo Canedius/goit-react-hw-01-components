@@ -1,9 +1,3 @@
-.ofline {
-  color: brown;
-}
-.online {
-  color: green;
-}
 .item {
   list-style: none;
 }
@@ -15,4 +9,17 @@
   padding: 10px;
   text-align: center;
   align-items: center;
+}
+.online,
+.offline {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0 15px 0 15px;
+}
+
+.offline {
+  background-color: red;
 }
